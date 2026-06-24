@@ -1,3 +1,4 @@
+
 # Product Service - Spring Boot 3.x + Redis Cache
 
 A complete Spring Boot REST API for managing Products with **MySQL** as primary database and **Redis** as cache (Cache-Aside Pattern).
@@ -132,6 +133,3 @@ Testing the Flow
 2. Get the product → GET /api/products/{id} (First time → DB, Second time → Redis Cache)
 3. Check Redis cache using KEYS *
 4. Update/Delete and verify cache behavior
-
-
-
